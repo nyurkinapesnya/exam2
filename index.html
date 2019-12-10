@@ -1,0 +1,362 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="./css/styles.css">
+    <link rel="stylesheet" href="./css/normalize.css">
+    <link rel="stylesheet" href="./css/swiper.min.css">
+    <link rel="stylesheet" href="./css/header__swiper.min.css">
+    <link rel="stylesheet" href="./css/news__swiper.min.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.11.2/css/all.css"
+        integrity="sha384-KA6wR/X5RY4zFAHpv/CnoG2UW1uogYfdnP67Uv7eULvTveboZJg0qUpmJZb5VqzN" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans&display=swap" rel="stylesheet">
+    <script src="https://code.jquery.com/jquery-3.4.1.js"
+        integrity="sha256-WpOohJOqMqqyKL9FccASB9O0KwACQJpFTUBLTYOVvVU=" crossorigin="anonymous"></script>
+    <title>Document</title>
+</head>
+
+<body>
+    <header class="header">
+        <div class="header__menu">
+            <div class="header__logo">
+                <img src="./img/img2.png">
+            </div>
+            <ul class="header__list">
+                <li class="list__item"><a href="#gallery">About Us</a></li>
+                <li class="list__item"><a href="#projects">projects</a></li>
+                <li class="list__item"><a href="#news">news</a></li>
+                <li class="list__item"><a href="#footer">contact</a></li>
+            </ul>
+            <div class="header__social">
+                <div class="social__icon"><i class="fab fa-facebook-f"></i></div>
+                <div class="social__icon"><i class="fab fa-twitter"></i></div>
+                <div class="social__icon"><i class="fab fa-instagram"></i></div>
+            </div>
+        </div>
+
+        <div class="header__swiper-container">
+            <div class="header__swiper-wrapper">
+                <div class="header__swiper-slide">
+                    <div class="header__title">simple & modern</div>
+                    <div class="header__subtitle">we make the world's beautiful every day</div>
+                </div>
+                <div class="header__swiper-slide">
+                    <div class="header__title">here you can see our projects</div>
+                    <div class="header__subtitle">we make the world's beautiful every day</div>
+                </div>
+                <div class="header__swiper-slide">
+                    <div class="header__title">also you can contact us</div>
+                    <div class="header__subtitle">we make the world's beautiful every day</div>
+                </div>
+                <div class="header__swiper-slide">
+                    <div class="header__title">we'll help you with your own project</div>
+                    <div class="header__subtitle">we make the world's beautiful every day</div>
+                </div>
+                <div class="header__swiper-slide">
+                    <div class="header__title">perfect result is guaranteed</div>
+                    <div class="header__subtitle">we make the world's beautiful every day</div>
+                </div>
+            </div>
+            <!-- Add Pagination -->
+            <div class="header__swiper-pagination"></div>
+        </div>
+        <a href="#projects" class="header__button">&#9660</a>
+    </header>
+    <main>
+        <section class="projects" id="projects">
+            <img class="projects__seperator" src="./img/img17.png" alt="seperator">
+            <div class="projects__title">what we do</div>
+            <div class="projects__card1">
+                <div class="projects__left">
+                    <svg width="600" height="300">
+                        <defs>
+                            <g id="card1" style="fill:#55B7FF;stroke:#55B7FF;stroke-width:3">
+                                <rect class="card" x="0" y="20" rx="0" ry="0" width="400" height="300" />
+                            </g>
+                        </defs>
+                        <use xlink:href="#card1" x="0" y="0" />
+                    </svg>
+                    <img class="projects__img" id="img1" src="./img/img3.png" alt="projectsr__img">
+                </div>
+                <div class="projects__right">
+                    <div class="projects__content">
+                        <div class="content__subtitle">one world</div>
+                        <div class="content__title">trade center</div>
+                        <div class="content__text">Increasing prosperity in our lives can be accomplished by having the
+                            right
+                            frame of mind. The truth is our thoughts are very powerful.</div>
+                        <button class="content__button">more details</button>
+                        <div class="content__author"><i class="fas fa-map-marker-alt"></i>New York City, United States -
+                            1776
+                            feet
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="projects__card2">
+                <div class="projects__left">
+                    <div class="projects__content">
+                        <div class="content__subtitle">international</div>
+                        <div class="content__title">commerce center</div>
+                        <div class="content__text">Successful business have many things in common, today we'll look at
+                            the
+                            big 'R' of recognition and how a digital advertising network may help.</div>
+                        <button class="content__button">more details</button>
+                        <div class="content__author"><i class="fas fa-map-marker-alt"></i>Hong Kong - 1588 feet
+                        </div>
+                    </div>
+                </div>
+                <div class="projects__right">
+                    <svg width="600" height="300">
+                        <defs>
+                            <g id="card2" style="fill:#7E5AFF;stroke:#7E5AFF;stroke-width:3">
+                                <rect class="card" x="200" y="20" rx="0" ry="0" width="400" height="300" />
+                            </g>
+                        </defs>
+                        <use xlink:href="#card2" x="0" y="0" />
+                    </svg>
+                    <img class="projects__img" id="img2" src="./img/img5.png" alt="projects__img">
+                </div>
+            </div>
+        </section>
+
+        <section class="news" id="news">
+
+            <div class="news__seperator"><img src="./img/img18.png" alt="news__seperator"></div>
+            <div class="news__title">latest news</div>
+            <div class="news__card">
+
+                <div class="news__swiper-container">
+                    <div class="news__swiper-wrapper">
+                        <div class="news__swiper-slide">
+                            <div class="news__card1">
+                                <div class="card__img"><img src="./img/img6.png" class="card__img" alt="news__picture">
+                                </div>
+                                <div class="card__content">
+                                    <div class="card__title">see the unmatched beauty of the great.</div>
+                                    <div class="card__text">Free directories: directories are perfect for customers that
+                                        are.. searching
+                                        for</div>
+                                    <div class="card__author">
+                                        <div class="author__photo"><img src="./img/img7.png" class="author__photo"
+                                                alt="news__picture">
+                                        </div>
+                                        <div class="author__info">
+                                            <div class="author__name">isaac dunn</div>
+                                            <div class="author__date">09 Feb 2017</div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="news__swiper-slide">
+                            <div class="news__card2">
+                                <div class="card__img"><img src="./img/img8.png" class="card__img" alt="news__picture">
+                                </div>
+                                <div class="card__content">
+                                    <div class="card__title">effective advertising pointers.</div>
+                                    <div class="card__text">Having a home based business is a wonderful asset to your
+                                        life...
+                                    </div>
+                                    <div class="card__author">
+                                        <div class="author__photo"><img src="./img/img9.png" class="author__photo"
+                                                alt="news__picture">
+                                        </div>
+                                        <div class="author__info">
+                                            <div class="author__name">dominic freeman</div>
+                                            <div class="author__date">24 Apr 2017</div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="news__swiper-slide">
+                            <div class="news__card3">
+                                <div class="card__img"><img src="./img/img10.png" class="card__img" alt="news__picture">
+                                </div>
+                                <div class="card__content">
+                                    <div class="card__title">hypnotize yourself into the ghost.</div>
+                                    <div class="card__text">There are many things that are important to catalog
+                                        design...</div>
+                                    <div class="card__author">
+                                        <div class="author__photo"><img src="./img/img11.png" class="author__photo"
+                                                alt="news__picture">
+                                        </div>
+                                        <div class="author__info">
+                                            <div class="author__name">alice ward</div>
+                                            <div class="author__date">30 Dec 2017</div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="news__swiper-slide">
+                                <div class="news__card4">
+                                    <div class="card__img"><img src="./img/img6.png" class="card__img"
+                                            alt="news__picture">
+                                    </div>
+                                    <div class="card__content">
+                                        <div class="card__title">see the unmatched beauty of the great.</div>
+                                        <div class="card__text">Free directories: directories are perfect for
+                                            customers that
+                                            are.. searching
+                                            for</div>
+                                        <div class="card__author">
+                                            <div class="author__photo"><img src="./img/img7.png" class="author__photo"
+                                                    alt="news__picture">
+                                            </div>
+                                            <div class="author__info">
+                                                <div class="author__name">isaac dunn</div>
+                                                <div class="author__date">09 Feb 2017</div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="news__swiper-slide">
+                                <div class="news__card5">
+                                    <div class="card__img"><img src="./img/img8.png" class="card__img"
+                                            alt="news__picture">
+                                    </div>
+                                    <div class="card__content">
+                                        <div class="card__title">effective advertising pointers.</div>
+                                        <div class="card__text">Having a home based business is a wonderful
+                                            asset to your
+                                            life...
+                                        </div>
+                                        <div class="card__author">
+                                            <div class="author__photo"><img src="./img/img9.png" class="author__photo"
+                                                    alt="news__picture">
+                                            </div>
+                                            <div class="author__info">
+                                                <div class="author__name">dominic freeman</div>
+                                                <div class="author__date">24 Apr 2017</div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="news__swiper-slide">
+                                <div class="news__card6">
+                                    <div class="card__img"><img src="./img/img10.png" class="card__img"
+                                            alt="news__picture">
+                                    </div>
+                                    <div class="card__content">
+                                        <div class="card__title">hypnotize yourself into the ghost.</div>
+                                        <div class="card__text">There are many things that are important to
+                                            catalog
+                                            design...</div>
+                                        <div class="card__author">
+                                            <div class="author__photo"><img src="./img/img11.png" class="author__photo"
+                                                    alt="news__picture">
+                                            </div>
+                                            <div class="author__info">
+                                                <div class="author__name">alice ward</div>
+                                                <div class="author__date">30 Dec 2017</div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+
+                            </div>
+                            <!-- Add Pagination -->
+                            <div class="news__swiper-pagination"></div>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+
+        </section>
+        <section class="gallery" id="gallery">
+            <div class="gallery__seperator"><img class="gallery__seperator" src="./img/img17.png" alt="seperator"></div>
+            <div class="gallery__title">gallery</div>
+            <div class="gallery__picts">
+                <img class="gallery__picts--big" src="img/img16.png">
+                <div class="gallery__picts--column">
+                    <img class="gallery__picts--small" src="img/img15.png">
+                    <img class="gallery__picts--small" src="img/img13.png">
+                </div>
+                <div class="gallery__picts--column">
+                    <img class="gallery__picts--small" src="img/img14.png">
+                    <img class="gallery__picts--small" src="img/img12.png">
+                </div>
+            </div>
+            <button class="gallery__button">see more</button>
+        </section>
+        <section class="map">
+            <div id="map"></div>
+        </section>
+
+
+    </main>
+
+    <footer class="footer" id="footer">
+
+        <section class="form">
+            <div class="form__seperator"><img class="form__seperator" src="./img/img17.png" alt="seperator"></div>
+            <div class="form__title">get in touch</div>
+            <div class="form__example">
+                <div class="form__auto">
+                    <div class="auto__adress">
+                        <i class="fas fa-map-marker-alt"></i>
+                        91 Notan Extansions Suite 670
+                    </div>
+                    <div class="auto__phone">
+                        <i class="fas fa-phone-alt"></i>
+                        +001 356-868-2454
+                    </div>
+                    <div class="auto__mail">
+                        <i class="fas fa-inbox"></i>
+                        gahuy93@gmail.com
+                    </div>
+                    <div class="auto__time">
+                        <i class="far fa-clock"></i>
+                        From 07:05AM to 19:30PM
+                    </div>
+                </div>
+                <div class="form__user">
+                    <form>
+                        <input class="user__name" type="text" placeholder="Your name" />
+                    </form>
+                    <form>
+                        <input class="user__email" type="text" placeholder="Email" />
+                    </form>
+                    <button class="user__button" type="submit">submit</button>
+                </div>
+            </div>
+        </section>
+        <div class="footer__menu">
+            <div class="footer__logo">
+                <img src="./img/img2.png">
+            </div>
+            <div class="footer__social">
+                <div class="social__icon"><i class="fab fa-facebook-f"></i></div>
+                <div class="social__icon"><i class="fab fa-twitter"></i></div>
+                <div class="social__icon"><i class="fab fa-instagram"></i></div>
+            </div>
+        </div>
+        <div class="footer__right">
+            Copyrights &copy; 2017 Monticello | Made with <i class="fas fa-heart"></i> by Ga Huy
+        </div>
+    </footer>
+
+
+    <!-- Initialize Swiper -->
+
+    <script src="./js/header__swiper.min.js"></script>
+    <script src="./js/news__swiper.min.js"></script>
+    <script src="./js/index.js"></script>
+    <script async defer
+        src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDJdNaq5Oh6wZh8Yl4AvBGeJPXxCdt2gwo&callback=initMap">
+        </script>
+</body>
+
+</html>

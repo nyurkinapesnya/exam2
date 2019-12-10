@@ -1,0 +1,33 @@
+.news__swiper-container {
+    height: 600px;
+    width: 100%;
+}
+
+.news__swiper-wrapper {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+}
+
+  .news__swiper-slide {
+    width: 350px;
+    position: relative;
+    text-align: left;
+    display: -webkit-box;
+    
+    -webkit-box-align: center;
+    align-items: center; 
+}
+
+.news__swiper-button-next, .news__swiper-button-prev{
+    position: absolute;
+    content: "";
+    width: 40px;
+    height: 40px;
+    top: calc(50% + 40px);
+    border: 1px solid #fff;
+    border-radius: 50%;
+    outline: none;
+}
